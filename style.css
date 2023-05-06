@@ -1,0 +1,39 @@
+#list1 .form-control {
+    border-color: transparent;
+}
+#list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+#list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #d9d9d9;
+}
+.task-list{
+    max-height: 350px;
+    overflow-x: hidden;
+}
+.task-box{
+    background-color: #d9d9d9;
+    margin: 4px 0px;
+}
+.task{
+    padding: 7px 10px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    cursor: pointer;
+}
+.action-box{
+    padding: 1px 9px;
+    text-align: center;
+}
+.action{
+    padding: 0px 5px;
+}
+.time{
+    font-size: 12px;
+}
+/* .scroll-area-sm1 {
+    height: 50px;
+    overflow-x: hidden;
+} */
